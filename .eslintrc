@@ -1,0 +1,40 @@
+{
+  "parser": "@typescript-eslint/parser",
+  "extends": [
+    "standard-react",
+    "prettier/react",
+    "plugin:react-hooks/recommended"
+  ],
+  "plugins": [
+    "react-hooks"
+  ],
+  "env": {
+    "node": true
+  },
+  "parserOptions": {
+    "ecmaVersion": 2020,
+    "ecmaFeatures": {
+      "legacyDecorators": true,
+      "jsx": true
+    }
+  },
+  "settings": {
+    "react": {
+      "version": "16"
+    }
+  },
+  "rules": {
+    "jsx-quotes": "off",
+    "space-before-function-paren": "off",
+    "react/prop-types": "off",
+    "react/jsx-handler-names": "off",
+    "react/jsx-fragments": "off",
+    "react/no-unused-prop-types": "off",
+    "import/export": "off",
+    "no-unused-expressions": "off",
+    "yoda": "off",
+    "no-sequences": "off",
+    "no-labels": "off",
+    "no-unused-vars": "off"
+  }
+}
